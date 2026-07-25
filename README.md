@@ -1,60 +1,149 @@
-# Second-Hand Car Sales Analysis
-### Project Overview
+# Second-Hand Car Sales Analysis using Machine Learning
 
-This project investigates the use of supervised and unsupervised machine learning algorithms to predict second-hand car prices in the UK using a synthetic dataset containing 50,000 vehicle records.
+## Project Overview
 
-The project compares several regression models and clustering techniques to evaluate predictive performance and identify hidden patterns in the data.
+This project explores the application of **supervised** and **unsupervised machine learning** techniques to analyse and predict second-hand car prices in the United Kingdom.
 
-### Dataset
-50,000 synthetic UK used car records
-#### Features include:
-Manufacturer,
-Model,
-Fuel Type,
-Mileage,
-Engine Size,
-Year of Manufacture,
-Price
+Using a synthetic dataset of **50,000 used vehicles**, multiple machine learning models were developed, trained, evaluated and compared to identify the most accurate approach for predicting vehicle prices. Clustering algorithms were also applied to uncover hidden patterns within the dataset.
 
-### Machine Learning Models
-##### Supervised Learning
-Linear Regression,
-Polynomial Regression,
-Multiple Linear Regression,
-Random Forest Regressor,
-Artificial Neural Network (ANN),
+---
 
-##### Unsupervised Learning
-K-Means Clustering,
-DBSCAN
+## Objectives
 
-### Technologies Used
-Python,
-Pandas,
-NumPy,
-Scikit-learn,
-TensorFlow,
-Matplotlib,
-Seaborn,
-Jupyter Notebook
+- Explore the dataset through Exploratory Data Analysis (EDA)
+- Predict second-hand car prices using regression models
+- Compare the performance of different machine learning algorithms
+- Identify hidden customer and vehicle segments using clustering techniques
+- Evaluate model performance using appropriate metrics
 
-### Results
-Artificial Neural Network obtained highest R² Score of 0.9992
+---
 
-Random Forest was second with an R² score of 0.9985.
+## Dataset
 
-Multiple Linear Regression	obtained R² Score of 0.6715
+The dataset contains **50,000 synthetic UK used car records** with both numerical and categorical features.
 
-Polynomial Regression	obtained 0.6094
+### Numerical Features
 
-Linear Regression obtained 0.5111
+- Mileage
+- Engine Size
+- Year of Manufacture
+- Price
 
-### Repository Contents
-Jupyter Notebook,
-Project Report,
-Requirements File,
-MIT License,
+### Categorical Features
 
-### Future Improvements
-Test XGBoost and LightGBM,
-Perform feature importance analysis
+- Manufacturer
+- Model
+- Fuel Type
+
+---
+
+## Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
+- TensorFlow / Keras
+- Matplotlib
+- Seaborn
+
+---
+
+# Exploratory Data Analysis
+
+The dataset was analysed to:
+
+- Understand feature distributions
+- Detect correlations
+- Explore relationships between variables
+- Prepare the data for machine learning
+
+Key preprocessing steps included:
+
+- One-Hot Encoding
+- Label Encoding
+- Feature Scaling
+- Standardisation
+
+---
+
+# Machine Learning Models
+
+## Supervised Learning
+
+- Simple Linear Regression
+- Polynomial Regression
+- Multiple Linear Regression
+- Random Forest Regressor
+- Artificial Neural Network (ANN)
+
+## Unsupervised Learning
+
+- K-Means Clustering
+- DBSCAN
+
+---
+
+# Model Performance
+
+| Model | R² Score |
+|---------|---------:|
+| Linear Regression | 0.5111 |
+| Polynomial Regression | 0.6094 |
+| Multiple Linear Regression | 0.6715 |
+| Random Forest | 0.9985 |
+| Artificial Neural Network | **0.9992** |
+
+### Best Performing Model
+
+**Artificial Neural Network (ANN)**
+
+Performance:
+
+- R² Score: **0.9992**
+- MAE: **315.44**
+- RMSE: **473.15**
+
+---
+
+# Repository Structure
+
+```
+second-hand-car-sales-analysis/
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── Second Hand Car Sales Analysis.ipynb
+├── Second Hand Car Sales Analysis Report.pdf
+├── data/
+└── images/
+```
+
+---
+
+# Future Improvements
+
+Possible extensions include:
+
+- XGBoost Regressor
+- LightGBM
+- Feature Importance Analysis
+
+---
+
+# 📄 Files Included
+
+- Jupyter Notebook
+- Technical Report
+- Requirements File
+
+---
+
+## Author
+
+**Cynthia Amarachi Eze**
+---
+
+If you found this project interesting, feel free to star the repository.
