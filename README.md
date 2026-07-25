@@ -109,18 +109,10 @@ Performance:
 
 # Repository Structure
 
-```
-second-hand-car-sales-analysis/
-│
-├── README.md
-├── requirements.txt
-├── LICENSE
-├── Second Hand Car Sales Analysis.ipynb
-├── Second Hand Car Sales Analysis Report.pdf
-├── data/
-└── images/
-```
-
+- Jupyter Notebook
+- Project Report
+- Requirements File
+- MIT License
 ---
 
 # Future Improvements
