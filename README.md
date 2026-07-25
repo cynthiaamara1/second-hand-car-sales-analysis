@@ -24,7 +24,7 @@ Multiple Linear Regression
 Random Forest Regressor
 Artificial Neural Network (ANN)
 
-#####Unsupervised Learning
+##### Unsupervised Learning
 K-Means Clustering
 DBSCAN
 
@@ -39,9 +39,9 @@ Seaborn
 Jupyter Notebook
 
 ### Results
-Model	R² Score
-Linear Regression	0.5111
-Polynomial Regression	0.6094
+Model	                        R² Score
+Linear Regression	            0.5111
+Polynomial Regression	        0.6094
 Multiple Linear Regression	0.6715
 Random Forest	0.9985
 Artificial Neural Network	0.9992
