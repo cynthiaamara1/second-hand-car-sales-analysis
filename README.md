@@ -133,7 +133,7 @@ Possible extensions include:
 
 ---
 
-# 📄 Files Included
+# Files Included
 
 - Jupyter Notebook
 - Technical Report
@@ -144,6 +144,4 @@ Possible extensions include:
 ## Author
 
 **Cynthia Amarachi Eze**
----
 
-If you found this project interesting, feel free to star the repository.
