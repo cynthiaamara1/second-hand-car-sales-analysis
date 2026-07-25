@@ -111,6 +111,7 @@ Performance:
 
 - Jupyter Notebook
 - Project Report
+- Images
 - Requirements File
 - MIT License
 ---
