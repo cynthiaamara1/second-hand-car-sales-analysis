@@ -39,11 +39,15 @@ Seaborn,
 Jupyter Notebook
 
 ### Results
-###### Artificial Neural Network obtained highest R² Score of 0.9992
-###### Random Forest was second with an R² score of 0.9985.
-###### Multiple Linear Regression	obtained R² Score of 0.6715
-###### Polynomial Regression	obtained 0.6094
-###### Linear Regression obtained 0.5111
+Artificial Neural Network obtained highest R² Score of 0.9992
+
+Random Forest was second with an R² score of 0.9985.
+
+Multiple Linear Regression	obtained R² Score of 0.6715
+
+Polynomial Regression	obtained 0.6094
+
+Linear Regression obtained 0.5111
 
 ### Repository Contents
 Jupyter Notebook,
